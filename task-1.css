@@ -127,29 +127,92 @@ body{
 	 font-size:1.3rem;
 	 display:flex;
 	 justify-content:space-between;
+
+ }
+ .number img{
+	  align-items:center;
+ }
+ .row{
+	 margin:4rem auto 7rem auto;
+ }
+ .circle{
+	 width:100%;
+	 text-align:center;
+ }
+ .littlecircle{
+	 display:inline-block;
+	 line-height:1rem;
+	 width:1rem;
+	 height:1rem;
+	 text-align:center;
+	 border-radius:50%;
+	 background-color:gray;
+ }
+ .person{
+	 background:white;
+	 text-align:center;
+	 padding:5% 10%;
+	 font-size:1.3rem;
 	 align-items:center;
  }
+ @media screen and (max-width:768px){
+	 .person{
+		 width:70%;
+		 margin:3rem auto;
+	 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
+@media screen and (min-width:768px)
+  {.mainbottom1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mainbottom2{
+    background: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  }
+@media screen and (max-width:768px)
+{.mainbottom{
+  text-align: center;
+}
+.mainbottom1{
+  width: 60%;
+  height: auto;
+}
+.mainbottom2{
+  margin-bottom: 2rem;
+}
+.mainbottom2 img{
+  width: 70%;
+}
+}
+.mainbottom2:hover{
+transform: translate(0px,-10px);
+box-shadow:0  0 2px 2px orange;
+z-index: 2
+}
+.foot1{
+	font-size:1.3rem;
+	
+}
+.font4{
+	text-align:center;
+}
+@media screen and (min-width:768px){
+	.foot4{
+		display:flex;
+		justify-content:space-between;
+	}
+	.foot div{
+		padding:0;
+	}
+}
+.foot1{
+	text-size:center;
+}
 
 
 
