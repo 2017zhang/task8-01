@@ -86,41 +86,72 @@ body{
   padding: 0;
   margin: 0;
 }
-.collapse{
-	
-}
+ .active img{
+	 width:100%;
+ }
+
 
  .headmiddle3{
+	padding-right:6%;
 	
  }
- 
- 
- 
+
  .carousel-control{
-padding-top: %;
+    padding-top:14%;
+	font-size:3rem;
+}
+ .carousel-control{
+	 position: absolute;
+	 top:10%;
+	 font-size:3rem;
 
 }
- .carousel a{
-	font-size:6rem;
- }
-.maintop {
+		
+
+ .maintop{
   text-align: center;
-  margin: 6rem auto;
+  margin: 4rem auto;
 }
 @media screen and (min-width:768px) {
-  .maintop1
-  {
-	  padding-right:5%;
+  .maintop1{
+	 padding-right:5%;
     border-right: 2px dashed gray;
   }
 
+
 }
-.maintop2{
-  font-size: 1.5rem;
+@media screen and (max-width:768px) {
+      .carousel-control{
+	     top:-3%;
+	     font-size:3rem;
+
 }
+
+
+
+}
+    .maintop2{
+      font-size: 1.5rem;
+    }
 .maintop3{
 font-size: 1.3rem;
 }
+ .maintop-5{
+	  justify-content: space-between;
+	 text-align: center;
+	
+	 
+ }
+ .maintop-5-1{
+	  font-size:1.5rem;
+	 color:#29b078;
+	 margin:2% 3%;
+ }
+  .maintop-5-1 span{
+	  position:absolute;
+	  margin-top:.3%;
+  }
+
 
  /*如何学习*/
  h3{
@@ -131,20 +162,12 @@ font-size: 1.3rem;
 	 font-size:1.3rem;
 	 display:flex;
 	 justify-content:space-between;
-	
-     
+	 align-items:center;  
  }
-  .circlenumber1 img{
-	  text-align: center;
-  }
-
- .circlenumber img{
-  
-	text-align: center;
- }
- .row{
+    .row{
 	 margin:4rem auto 7rem auto;
  }
+
  .circle{
 	 width:100%;
 	 text-align:center;
@@ -167,11 +190,17 @@ font-size: 1.3rem;
  }
 
  @media screen and (max-width:768px){
+	  .number img{
+ 	width:70%;
+	height:70%;
+}
 	 .person{
 		 width:70%;
 		 margin:3rem auto;
 	 }
-
+	 .person img{
+		 width:80%;
+	 }
  }
 @media screen and (min-width:768px)
   {.mainbottom1{
@@ -184,72 +213,59 @@ font-size: 1.3rem;
     padding: 2rem 0;
     text-align: center;
   }
+
+  
   }
 @media screen and (max-width:768px)
 {.mainbottom{
   text-align: center;
 }
-.mainbottom1{
+ .mainbottom1{
   width: 60%;
   height: auto;
 }
-.mainbottom2{
+ .mainbottom2{
   margin-bottom: 2rem;
 }
-.mainbottom2 img{
+ .mainbottom2 img{
   width: 70%;
 }
+
 }
-.mainbottom2:hover{
+ .mainbottom2:hover{
 transform: translate(0px,-10px);
 box-shadow:0  0 2px 2px orange;
 z-index: 2;
 }
+
 /*友情链接*/
-.foot1{
+
+ .foot1{
 	font-size:1.3rem;
 	
 }
 .font4{
 	text-align:center;
+	margin:0% 0;
 }
 @media screen and (min-width:768px){
 	.foot4{
 		display:flex;
 		justify-content:space-between;
 	}
-	.foot div{
-		padding:0;
-	}
+
 }
 .foot1, .foot2, .foot3{
 	text-align:center;
+	
+	
 }
 .foot2, .foot3{
 	background-color:#29b078;
 	width:100%;
+	
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
