@@ -1,0 +1,298 @@
+@charset="utf-8";
+html{
+	font-size:62.5%;
+	background:#fafafa;
+	height:100%;
+
+}
+body{
+    font-size:62.5%;
+	background:#fafafa;
+	height:100%;
+
+}
+ .headtop{
+	font-size:1.3rem;
+	padding:0 10%;
+	background:white;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+ .tel{
+	color:#29b078;
+	line-height:2.3rem;
+}
+.headmiddle{
+	border-radius: 0;
+	background:#29b078;
+	font-size:1.7rem;
+	margin:0;
+	border:0;
+}
+.headmiddle .headmiddle1 .headmiddle2 ul a{
+	color:white;
+}
+.headmiddle2 li{
+	
+
+}
+.headmiddle button{
+	border:none;
+	background:none;/*0*/	
+}
+ .headmiddle .headmiddle1 .headmiddle3 button:focus,
+ .headmiddle .headmiddle1 .headmiddle3 hutton:hover{
+	 
+
+ }
+ .headmiddle .headmiddle1 .headmiddle3 .icon-bar{
+	 background:white;
+	 
+	 
+ }
+ @media screen and (min-width:768px){
+	 .headmiddle2 ul{
+		 float:right;
+		 padding-right:5%; 
+		
+		 
+	 }
+ }
+ @media screen and (max-width:768px){
+	 .headmiddle2 {
+		 text-align:center;
+		 background-color:#29b078;
+	 }
+ }
+ @media screen and (min-width:768px){
+	 .headmiddle2 li:hover p{
+		 display:block;
+	 }
+ }
+ .headmiddle2 li{
+	 padding:1rem 0;
+	 position:relative;
+ }
+ .headmiddle2 p{
+  position: absolute;
+  bottom: 0;
+  display: none;
+  height: 2px;
+  text-align: center;
+  width: 90%;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+ .headmiddle3{
+  padding-right: 6%;
+}
+/*职业*/
+
+.maintop {
+    padding: 3% 10%;
+}
+@media screen and (max-width:768px) {
+ main  .maintop2{
+    height: auto;
+  }
+}
+.maintop1 {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid gray;
+    font-size: 1.5rem;
+}
+.maintop1 span{
+  color: #29b078;
+}
+.maintop2 {
+  font-size: 1.2rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid gray;
+}
+.maintop2 a{
+  text-decoration: none;
+  color: black;
+  padding:1rem 2rem;
+}
+.maintop2 a:hover{
+  color: white;
+  background: #29b078;
+}
+.maintop2 span{
+color: gray;
+}
+h4 {
+    margin: 0 10% 0 10%;
+    padding: 2rem 0;
+    border-bottom: 1px solid gray;
+}
+
+.mainmiddle4 {
+    padding: 1rem 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainmiddle5 {
+    width: 31%;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 0;
+    box-shadow: 0.2px 0.3px black;
+    position: relative;
+    z-index: 0;
+}
+.none{
+  border:none;
+  box-shadow: none;
+  background: none;
+}
+@media screen and (max-width:768px) {
+    .mainmiddle4 {
+        display: block;
+    }
+    .mainmiddle5 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+.line1 {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 50%;
+}
+
+.photo img {
+    width: 80%;
+    height: auto;
+}
+
+.photoword {
+    width: 50%;
+    word-break: break-all;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.line2 span {
+    width: 50%;
+    text-align: left;
+}
+
+.line2 img {
+    vertical-align: middle;
+}
+
+.line3 {
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid gray;
+}
+
+.line3 div {
+    width: 50%;
+    text-align: left;
+}
+
+.line4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1px solid gray;
+}
+
+.money {
+    width: 30%;
+    text-align: center;
+}
+
+.money1 {
+    width: 70%;
+}
+
+.money1 p {
+    padding: 2% 5% 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+.money2 {
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+
+.line5 {
+    border-top:1px solid gray;
+}
+
+.line6 {
+    border-top: 1px solid gray;
+}
+
+.line7 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.line7 p {
+    padding: 5%;
+}
+
+.line7title {
+    margin-top: 10%;
+    text-align: center;
+}
+.mainmiddle5:hover .line7{
+  display: block;
+}
+
+.rightborder {
+    border-right: 1px solid gray;
+}
+
+.leftborder {
+    border-left: 1px solid gray;
+}
+
+.put {
+    height: 17rem;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
