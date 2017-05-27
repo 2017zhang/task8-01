@@ -96,28 +96,36 @@ body{
 }
 @media screen and (max-width:768px) {
  main  .maintop2{
-    height: auto;
+    height:auto;
   }
 }
 .maintop1 {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid gray;
     font-size: 1.5rem;
+	
+
 }
 .maintop1 span{
-  color: #29b078;
+    color: #29b078;
 }
 .maintop2 {
-  font-size: 1.2rem;
-    height: 4rem;
-    line-height: 4rem;
+    font-size: 1.2rem;
+    word-break:keep-all;
+
     border-bottom: 1px solid gray;
+	margin:.9rem 1rem;
+	
+	
+	
 }
 .maintop2 a{
   text-decoration: none;
   color: black;
-  padding:1rem 2rem;
+  padding:1rem 1rem;
+  
 }
+
 .maintop2 a:hover{
   color: white;
   background: #29b078;
@@ -125,6 +133,8 @@ body{
 .maintop2 span{
 color: gray;
 }
+
+/*内容*/
 h4 {
     margin: 0 10% 0 10%;
     padding: 2rem 0;
@@ -281,8 +291,19 @@ h4 {
 .put {
     height: 17rem;
 }
+/*底部*/
+ .foot2{
+	 font-size:1.1rem;
+	 color:white;
+	 width:100%;
+	 background:#29b078;
+	 border-bottom:.1rem solid white;
+ }
+ .foot3{
+	 text-align:center;
+	 background-color:#29b078;
+ }
 
- 
  
  
  
