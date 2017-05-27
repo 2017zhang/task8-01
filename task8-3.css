@@ -1,0 +1,246 @@
+html{
+	font-size:62.5%;
+	background:#fafafa;
+	height:100%;
+
+}
+body{
+    font-size:62.5%;
+	background:#fafafa;
+	height:100%;
+
+}
+ .headtop{
+	font-size:1.3rem;
+	padding:0 10%;
+	background:white;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+ .tel{
+	color:#29b078;
+	line-height:2.3rem;
+}
+.headmiddle{
+	border-radius: 0;
+	background:#29b078;
+	font-size:1.7rem;
+	margin:0;
+	border:0;
+}
+.headmiddle .headmiddle1 .headmiddle2 ul a{
+	color:white;
+}
+.headmiddle2 li{
+	
+
+}
+.headmiddle button{
+	border:none;
+	background:none;/*0*/	
+}
+ .headmiddle .headmiddle1 .headmiddle3 button:focus,
+ .headmiddle .headmiddle1 .headmiddle3 hutton:hover{
+	 
+
+ }
+ .headmiddle .headmiddle1 .headmiddle3 .icon-bar{
+	 background:white;
+	 
+	 
+ }
+ @media screen and (min-width:768px){
+	 .headmiddle2 ul{
+		 float:right;
+		 padding-right:5%; 
+		
+		 
+	 }
+ }
+ @media screen and (max-width:768px){
+	 .headmiddle2 {
+		 text-align:center;
+		 background-color:#29b078;
+	 }
+ }
+ @media screen and (min-width:768px){
+	 .headmiddle2 li:hover p{
+		 display:block;
+	 }
+ }
+ .headmiddle2 li{
+	 padding:1rem 0;
+	 position:relative;
+ }
+ .headmiddle2 p{
+  position: absolute;
+  bottom: 0;
+  display: none;
+  height: 2px;
+  text-align: center;
+  width: 90%;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+ .headmiddle3{
+  padding-right: 6%;
+}
+/*职业*/
+
+.maintop {
+    padding: 3% 10%;
+}
+@media screen and (max-width:768px) {
+ main  .maintop2{
+    height:auto;
+  }
+}
+.maintop1 {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid gray;
+    font-size: 1.5rem;
+	
+
+}
+.maintop1 span{
+    color: #29b078;
+}
+.maintop2 {
+    font-size: 1.2rem;
+    word-break:keep-all;
+
+    border-bottom: 1px solid gray;
+	margin:.9rem 1rem;
+	
+	
+	
+}
+.maintop2 a{
+  text-decoration: none;
+  color: black;
+  padding:1rem 1rem;
+  
+}
+
+.maintop2 a:hover{
+  color: white;
+  background: #29b078;
+}
+.maintop2 span{
+color: gray;
+}
+/*内容*/
+ .banner img{
+      width: 100%; 
+}
+ .main{
+      padding-left: 15px;
+      padding-right:15px;
+      margin-left: auto;
+      margin-right: auto;
+ }
+@media (min-width: 768px) {
+    .main{
+       width:750px;             /*页面宽度大于768px时盒子宽度*/
+          }
+}
+@media (min-width: 992px) {
+    .main{
+         width:970px;             /*页面宽度大于992px时盒子宽度*/
+         }
+}
+@media (min-width: 1200px) {
+     .main{
+          width:1170px;             /*页面宽度大于1200px时盒子宽度 设置时注意代码顺序、执行顺序不一致将导致代码不生效 */
+            }
+}
+
+       
+.line{
+     margin-left: -15px;
+     margin-right: -15px;
+ }
+/*介绍*/
+ .content .cln{
+	 font-size:1.5rem;
+	 padding:2rem 1rem;
+ }
+ .cln span{
+	 color:#29b078;
+ }
+ .sidebar{
+	 display:inline-block;
+	 background:#fff;
+	 box-shadow:0 0 1rem #ccc;
+	 width:24%;
+	 margin-left:15px; 
+ }
+ .sidebar h4{
+	 padding:1.5rem 0;
+	 padding-left:33%; 
+ }
+ .sidebar li{
+	 margin:1.5rem 0;
+	 padding-left:40%;
+	 font-size:1.5rem;
+	 list-style-imags:url()
+ }
+
+
+/*友情链接*/
+
+
+.font4{
+	text-align:center;
+	margin:0% 0;
+	
+}
+@media screen and (min-width:768px){
+	.foot4{
+		display:flex;
+		justify-content:space-between;
+	}
+
+
+}
+.foot1, .foot2, .foot3{
+	text-align:center;
+	
+	
+}
+.foot2, .foot3{
+	background-color:#29b078;
+	width:100%;
+	
+
+}
+.foot2{
+	border-bottom:.1rem solid white;
+}
+.foot5{
+	margin:2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
