@@ -34,10 +34,7 @@ body{
 .headmiddle .headmiddle1 .headmiddle2 ul a{
 	color:white;
 }
-.headmiddle2 li{
-	
 
-}
 .headmiddle button{
 	border:none;
 	background:none;/*0*/	
@@ -45,19 +42,14 @@ body{
  .headmiddle .headmiddle1 .headmiddle3 button:focus,
  .headmiddle .headmiddle1 .headmiddle3 hutton:hover{
 	 
-
  }
  .headmiddle .headmiddle1 .headmiddle3 .icon-bar{
-	 background:white;
-	 
-	 
+	 background:white;	 
  }
  @media screen and (min-width:768px){
 	 .headmiddle2 ul{
 		 float:right;
-		 padding-right:5%; 
-		
-		 
+		 padding-right:5%;  
 	 }
  }
  @media screen and (max-width:768px){
@@ -103,8 +95,6 @@ body{
     padding-bottom: 0.5rem;
     border-bottom: 2px solid gray;
     font-size: 1.5rem;
-	
-
 }
 .maintop1 span{
     color: #29b078;
@@ -286,11 +276,13 @@ h4 {
 
 .leftborder {
     border-left: 1px solid gray;
+
 }
 
 .put {
     height: 17rem;
 }
+
 /*底部*/
  .foot2{
 	 font-size:1.1rem;
@@ -303,17 +295,8 @@ h4 {
 	 text-align:center;
 	 background-color:#29b078;
  }
-
+ .foot5{
+	margin:2rem 0;
+	
+}
  
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
