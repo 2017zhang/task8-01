@@ -182,41 +182,49 @@ color: gray;
             }
 }
  .line{
-	 margin-left:-15px;
-	
+	 margin-left:-20px;
+
  }
 
  .content .cln{
       font-size: 1.5rem;
       padding: 2rem 1rem;
+	  
   }
  .cln span{
     color:#29b078;
+	
 }
  .sidebar{
      display: inline-block;
      background: #fff;
      box-shadow: 0 0 10px #ccc;
-     width: 24%;
-            
+     width: 24%;         
 }
  .sidebar h4{
-     padding:1.5rem 0;
-     padding-left: 40%;
+	 font-weight: bold;
+    font-size: 1.7rem;
+    border-bottom: 1px solid gray;
+    padding: 1.5rem 0;
 	margin-left:-40px;
-		
+	 text-align:center;	
 }
- .sidebar li{
-			
+ .sidebar li{			
    margin: 1.5rem 0;
-   margin-left: 30%;
+   margin-left:40px;
  }
+
+
+
+
  .sidebar li{
    font-size: 1.5rem;
    list-style-image: url("images/81.jpg");
+   
 }
  .sidebar li:hover{
    list-style-image: url("images/82.jpg");
+   
 }
  .sidebar a{
     padding:1.5rem 0;
@@ -237,12 +245,62 @@ color: gray;
         }
       .line{
          margin-right: 15px;
+		
         }
       .sidebar h4{
-         padding-left: 40%;
+
+	padding-right:40px;
+
+	
         }
       .sidebar li{
-          margin-left: 42%;
+		
+          margin-left:280px;
+        }
+}
+@media  screen and (max-width: 656px){
+
+      .sidebar h4{
+
+	padding-right:30px;
+        }
+      .sidebar li{
+		margin-left:240px;
+         
+        }
+}
+
+
+@media  screen and (max-width: 425px){
+
+      .sidebar h4{
+	padding-right:10px;
+
+        }
+      .sidebar li{
+		margin-left:130px;     
+        }
+}
+@media  screen and (max-width: 375px){
+
+      .sidebar h4{
+	padding-right:10px;
+
+        }
+      .sidebar li{
+		margin-left:110px;     
+        }
+}
+@media  screen and (max-width: 320px){
+      .sidebar h4{
+		
+	padding-right:30px;
+	
+	
+        }
+      .sidebar li{
+		margin-left:60px;
+         
         }
 }
 
@@ -259,7 +317,7 @@ color: gray;
  }
  .column-div img{
 	 float:left;
-	 padding:50px;
+	 padding:30px 50px 30px 60px;
 	 
  }
  .column-div p, .column>p{
@@ -267,7 +325,7 @@ color: gray;
 	 color:#999;
  }
  .column-div p{
-	 padding-top:6rem;
+	 padding-top:2rem;
  }
  .column>p{
 	 text-indent:2rem;
